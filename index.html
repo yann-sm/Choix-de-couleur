@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="color.css">
+
+	<title> Choix de couleur</title>
+
+</head>
+<body>
+	<h1>Choisir une couleur : </h1>
+	<table>
+		<tr>
+			<td style="color:red; text-decoration: underline;">Red</td>
+			<td><input type="range" id="rRange" min="0" max="255" value="0" oninput="fColorPicker()"></td>
+			<td id="rWeight" style="background-color: #ff0000;" width="20%"></td>
+		</tr>
+
+		<tr>
+			<td style="color:green; text-decoration: underline;">Green</td>
+			<td><input type="range" id="gRange" min="0" max="255" value="0" oninput="fColorPicker()"></td>
+			<td id="gWeight" style="background-color: #00ff00;" width="20%"></td>
+		</tr>
+
+		<tr>
+			<td style="color:blue; text-decoration: underline;">Blue</td>
+			<td><input type="range" id="bRange" min="0" max="255" value="0" oninput="fColorPicker()"></td>
+			<td id="bWeight" style="background-color: #0000ff;" width="20%"></td>
+		</tr>
+
+		<tr>
+			<td height="15px;"></td>
+		</tr>
+
+		<tr>
+			<td style="text-decoration: underline;">Hex valeur  </td>
+			<td style="text-align: center;"><div id="hexValue">#000000</div></td>
+			<td width="20%"></td>
+		</tr>
+
+		<tr>
+			<td height="15px;"></td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td id="textColor" style="background-color: #000000" height="100px;"></td>
+			<td></td>
+		</tr>
+	</table>
+
+	<script src="color.js"></script>
+	<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+</body>
+</html>

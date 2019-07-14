@@ -1,0 +1,19 @@
+
+body { 
+	
+	background-image: -webkit-linear-gradient(left, white, skyblue,pink, skyblue, white);
+	font-family: Verdana, Arial, Halvetica; 
+	font-style: italic;
+}
+
+table { 
+	margin:100px; 
+	border: 0; 
+	
+}
+
+h1 {
+	margin-top: 100px;
+	margin-left: 50px;
+	text-decoration: underline;
+}
